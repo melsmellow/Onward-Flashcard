@@ -84,8 +84,8 @@ const OCR: React.FC<Props> = ({ title, count = 0 }) => {
   };
 
   return (
-    <div className="p-4">
-      <h1 className="text-xl font-bold mb-4">Tesseract OCR with Next.js</h1>
+    <div className="p-16 ">
+      <h1 className="text-xl font-bold m-2">Tesseract OCR with Next.js</h1>
 
       {/* Image Upload Option */}
       <div className="mb-4">
